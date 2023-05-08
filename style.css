@@ -1,0 +1,52 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+.form-container {
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border:5px solid red;
+}
+
+label {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 40px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+button[type="submit"] {
+  width: 80px;
+  height: 40px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+#response-container {
+  margin-top: 60px;
+  font-size: 30px;
+  font-family:arial;
+  text-decoration:none;
+  border:3px solid;}
+body{
+  background-image:url(images (9).jpeg);
+  background-repeat:no-repeat;
+}
